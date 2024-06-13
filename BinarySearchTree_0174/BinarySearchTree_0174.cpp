@@ -11,6 +11,11 @@ public :
     Node* rightChild;
 
 
+    //membuat constructor untuk class node
+    Node(string i, Node* l, Node& r) {
+
+    }
+
 };
 
 int main()
