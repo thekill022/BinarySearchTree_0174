@@ -130,4 +130,10 @@ int main()
     //deklarasi object x sebagai object BinaryTree
     BinaryTree x;
 
+    //perulangan while selama bernilai benar
+    while (true)
+    {
+
+    }
+
 }
