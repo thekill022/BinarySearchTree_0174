@@ -108,6 +108,21 @@ public :
 
     }
 
+    //membuat dan mendefinisikan prosedur postorder
+    void postorder(Node* ptr) {
+
+        if (ROOT == nullptr) {
+            cout << "Tree is empty" << endl;
+            return;
+        }
+        if (ptr != nullptr) {
+            cout << ptr->info << " ";
+            postorder(ptr->leftChild);
+            postorder(ptr->rightChild);
+        }
+
+    }
+
 };
 
 int main()
