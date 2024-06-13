@@ -21,6 +21,12 @@ public :
 
 };
 
+
+//membuat class BinarTree
+class BinaryTree {
+
+};
+
 int main()
 {
     
